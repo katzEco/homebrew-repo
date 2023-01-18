@@ -1,4 +1,4 @@
-class lineseed-th < Formula
+class lineseedth < Formula
   version "1.0.0"
   sha256 "7752f60050d475a43c8c0a8a63bd3f89ded0ce568227c84c95419182ad548c6a"
 
