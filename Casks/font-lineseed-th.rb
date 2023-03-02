@@ -1,16 +1,11 @@
-class Lineseedth < Formula
-  version "1.0.0"
-  sha256 "7752f60050d475a43c8c0a8a63bd3f89ded0ce568227c84c95419182ad548c6a"
+FAMILY: LINE Seed Sans TH
+cask 'FIXME' do
+  version "1.002"
+  sha256 "3a06a1549f7c2cb4f9c9b9c99afe3701f7f6aa47039e6073ab18336dbc582436"
 
-  url "https://cdn.katsuragi.cyou/zip/LINESeed-TH/#{version}.zip"
+  url "https://github.com/katzEco/LINESeed-brew/raw/main/LINE_Seed_Sans_TH.zip"
   name "LINE Seed Sans TH"
-  desc "a Font that make by line"
-  homepage ""
-
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
+  homepage "https://seed.line.me/"
 
   font "LINESeedSansTH_Bd.otf"
   font "LINESeedSansTH_Bd.ttf"
