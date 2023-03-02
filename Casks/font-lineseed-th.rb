@@ -1,4 +1,4 @@
-cask 'lineseed-th' do
+cask 'font-lineseed-th' do
   version "1.002"
   sha256 "3a06a1549f7c2cb4f9c9b9c99afe3701f7f6aa47039e6073ab18336dbc582436"
 
