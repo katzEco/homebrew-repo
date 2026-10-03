@@ -6,7 +6,7 @@ List of all formulae and casks available in this tap.
 | :--- | :--- | :--- | :--- |
 | **[`katzu-git`](Formula/katzu-git.rb)** | Formula (CLI) | Minimal Git CLI wrapper (`kg`) | `brew install katzu-git` |
 | **[`lineseed-th`](Casks/lineseed-th.rb)** | Cask (Font) | LINE Seed Sans TH font family (OTF / TTF) | `brew install --cask lineseed-th` |
-| **[`katzu-welcome`](Formula/katzu-welcome.rb)** | Cask (App) | Welcome greeting for zsh (macOS ARM64) | `brew install --cask katzu-welcome` |
+| **[`katzu-welcome`](Formula/katzu-welcome.rb)** | Formula (CLI) | Personalized terminal welcome banner with weather, art, and quotes | `brew install katzu-welcome` |
 
 ---
 
@@ -35,10 +35,10 @@ List of all formulae and casks available in this tap.
 ---
 
 ### [`katzu-welcome`](Formula/katzu-welcome.rb)
-- **Type**: Cask (App)
-- **Description**: Welcome greeting for zsh on macOS (Apple Silicon).
+- **Type**: Formula (CLI)
+- **Description**: Personalized terminal welcome banner with weather, ASCII art, and quotes.
 - **Repository**: [katzEco/katzu-welcome](https://github.com/katzEco/katzu-welcome)
 - **Installation**:
   ```bash
-  brew install --cask katzu-welcome
+  brew install katzu-welcome
   ```

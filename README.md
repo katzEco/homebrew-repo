@@ -20,7 +20,7 @@ This tap provides custom casks and packages, including fonts and utilities for m
    brew install --cask lineseed-th
 
    # Install katzu-welcome
-   brew install --cask katzu-welcome
+   brew install katzu-welcome
 
    # Install katzu-git (CLI)
    brew install katzu-git
