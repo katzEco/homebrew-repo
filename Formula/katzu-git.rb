@@ -1,28 +1,28 @@
 class KatzuGit < Formula
   desc "Minimal, ergonomic CLI wrapper for everyday Git workflows"
   homepage "https://github.com/katzEco/katzu-git"
-  version "1.0.7"
+  version "1.0.10"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/katzEco/katzu-git/releases/download/v#{version}/kg-v#{version}-mac-arm"
-      sha256 "950f8e75da1ab7fa409c5e4c94fd3dea9ef64ab2017fb9a9470b05e63874f3a6"
+      sha256 "47ac8ef0b7b3c24300399649880d4724f45e6ff2a979d4384c8df4fbd381a219"
     end
     on_intel do
       url "https://github.com/katzEco/katzu-git/releases/download/v#{version}/kg-v#{version}-mac-x64"
-      sha256 "f104d5148e60f48f0713f3edfc8b5add282b6a030b52d5b971d837b5e52a88c3"
+      sha256 "c5d625c977ca23829c9358282d5b4dc76a9e793411706fd4e0317af026c5b3f5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/katzEco/katzu-git/releases/download/v#{version}/kg-v#{version}-linux-arm"
-      sha256 "c07749d3967a6ec4995c7465bad19a25fadcefa093879560ad05d62cf431f9b2"
+      sha256 "06d33bfa5f6f245d46876a08c1af1cc596f9d542f041548e37470ed869f02142"
     end
     on_intel do
       url "https://github.com/katzEco/katzu-git/releases/download/v#{version}/kg-v#{version}-linux-x64"
-      sha256 "3f46f41e42232d4067488e012f1192998ba06c8fb5efb2bb2546d2d75d5bb80f"
+      sha256 "85a7674ce17a2b6f040c476db6a981096be3471313299a345e0a973adfca7bc7"
     end
   end
 
