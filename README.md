@@ -24,6 +24,9 @@ This tap provides custom casks and packages, including fonts and utilities for m
 
    # Install katzu-git (CLI)
    brew install katzu-git
+
+   # Install overlay-manager
+   brew install overlay-manager
    ```
 
 ---
